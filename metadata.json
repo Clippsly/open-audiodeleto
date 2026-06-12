@@ -1,0 +1,40 @@
+{
+  "name": "Open-Audiodeleto",
+  "version": "0.1-800",
+  "createdAt": "2026-06-12T12:50:28+00:00",
+  "randomSeed": 1337,
+  "dataset": {
+    "bypassCount": 400,
+    "cleanCount": 400,
+    "total": 800
+  },
+  "features": [
+    "duration",
+    "rms_mean",
+    "rms_std",
+    "zero_crossing_rate_mean",
+    "spectral_centroid_mean",
+    "spectral_centroid_std",
+    "spectral_rolloff_mean",
+    "spectral_rolloff_std",
+    "spectral_bandwidth_mean",
+    "spectral_bandwidth_std",
+    "tempo",
+    "silence_low_energy_ratio",
+    "loudness_jump_mean",
+    "loudness_jump_p95",
+    "loudness_transition_score"
+  ],
+  "riskThresholds": {
+    "low": 0.0,
+    "medium": 0.55,
+    "high": 0.75,
+    "critical": 0.9
+  },
+  "intendedUse": "Audio bypass risk signal only.",
+  "notFor": [
+    "automatic bans",
+    "automatic account termination",
+    "legal copyright conclusions"
+  ]
+}

@@ -1,0 +1,3 @@
+path,label,source_dir,error
+/Volumes/bleh/audiodeleto-dataset/bypass-audios-full/idrk lol.mp3,1,bypass-audios-full,"[mp3 @ 0xa53060000] Failed to find two consecutive MPEG audio frames.
+/Volumes/bleh/audiodeleto-dataset/bypass-audios-full/idrk lol.mp3: Invalid data found when processing input"
