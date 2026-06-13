@@ -1,0 +1,25 @@
+{
+  "sourceModel": "open-audiodeleto",
+  "modelId": "open-audiodeleto",
+  "modelVersion": "0.1-800",
+  "sourcePath": "/Volumes/bleh/audiodeleto-dataset/models/open-audiodeleto/model/model.pkl",
+  "onnxPath": "/Volumes/bleh/audiodeleto-dataset/models/open-audiodeleto/model/model.onnx",
+  "featureSpecPath": "/Volumes/bleh/audiodeleto-dataset/models/open-audiodeleto/model/feature_spec.json",
+  "featureCount": 15,
+  "sklearnVersion": "1.9.0",
+  "onnxOpsetVersion": {
+    "ai.onnx.ml": 1,
+    "ai.onnx": 17
+  },
+  "exportTimestamp": "2026-06-13T10:41:15+00:00",
+  "exportSuccess": true,
+  "verificationSample": {
+    "rows": 120,
+    "split": "validation"
+  },
+  "predictionDrift": {
+    "max": 5.658467610025752e-07,
+    "average": 2.024304456814859e-07,
+    "maxAllowed": 0.01
+  }
+}
